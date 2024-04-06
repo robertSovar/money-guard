@@ -3,7 +3,7 @@ import RegistrationForm from '../components/RegistrationForm/RegistrationForm';
 import React from 'react';
 import imageMob from '../images/mobileRegistr.webp';
 import imageTablet from '../images/tabletRegistr.webp';
-import imageDesk from '../images/desctopRegister.webp';
+import imageDesk from '../images/desktopRegister.webp';
 
 const RegistrationPage = () => {
   return (

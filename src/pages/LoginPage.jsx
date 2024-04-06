@@ -3,7 +3,7 @@ import LoginForm from 'components/LoginForm/LoginForm';
 import React from 'react';
 import imageMob from '../images/mobileLogin.webp';
 import imageTablet from '../images/tabletLogin.webp';
-import imageDesk from '../images/desctopLogin.webp';
+import imageDesk from '../images/desktopLogin.webp';
 import styled from 'styled-components';
 
 const LoginPage = () => {
