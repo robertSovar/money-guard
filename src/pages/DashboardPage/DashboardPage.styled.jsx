@@ -208,7 +208,7 @@ export const LeftContainer = styled.div`
       height: 100%;
       position: absolute;
       right: 0;
-      background-color: var(--transparency-60);
+      background-color: var(--transparency-10);
     }
   }
 `;
