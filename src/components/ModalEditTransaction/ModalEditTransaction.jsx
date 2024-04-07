@@ -6,7 +6,7 @@ import {
   CloseModalBtn,
   Gradient,
   StyledModal,
-} from './ModalEditTansaction.styled';
+} from './ModalEditTransaction.styled';
 import Header from '../Header/Header';
 import { useMediaQuery } from 'react-responsive';
 
