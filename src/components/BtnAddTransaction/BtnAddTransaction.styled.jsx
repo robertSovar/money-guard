@@ -4,10 +4,8 @@ export const BtnOpenModal = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
   width: 44px;
   height: 44px;
-  bottom: 20px;
   border-radius: 50%;
   color: #fbfbfb;
   border: none;
@@ -33,10 +31,13 @@ export const BtnOpenModal = styled.button`
   @media only screen and (min-width: 768px) {
     bottom: 100px;
     margin-right: 12px;
+    position: fixed;
+    bottom: 20px;
   }
 
   @media only screen and (min-width: 1280px) {
     bottom: 50px;
     margin-right: 0;
+    position: fixed;
   }
 `;
