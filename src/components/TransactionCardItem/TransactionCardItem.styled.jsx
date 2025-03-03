@@ -9,6 +9,7 @@ import styled from 'styled-components';
 export const Card = styled.li`
   width: 280px;
   height: 293px;
+  margin-top: 25px;
 
   position: relative;
 

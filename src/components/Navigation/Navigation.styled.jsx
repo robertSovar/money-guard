@@ -21,14 +21,15 @@ export const StyledNavigation = styled.nav`
 export const StyledLink = styled(NavLink)`
   padding: 0;
   position: relative;
-  color: ${({ $current }) => $current ? "#734aef" : "#FFFFFF66"};
+  color: ${({ $current }) => ($current ? '#734aef' : '#FFFFFF66')};
   text-decoration: none;
 
   &::after {
     content: '';
     width: 30px;
     height: 30px;
-    background-color: ${({ $current }) => $current ? "#fbfbfb" : "transparent"};
+    background-color: ${({ $current }) =>
+      $current ? '#fbfbfb' : 'transparent'};
     position: absolute;
     top: 4px;
     left: 4px;
@@ -44,8 +45,9 @@ export const StyledLink = styled(NavLink)`
       margin-left: 23px;
       color: var(--white);
       font-size: 18px;
-      font-family: ${({ $current }) => $current ? 'Poppins-SemiBold' : 'Poppins-Regular'};
-      font-weight: ${({ $current }) => $current ? 700 : 400};
+      font-family: ${({ $current }) =>
+        $current ? 'Poppins-SemiBold' : 'Poppins-Regular'};
+      font-weight: ${({ $current }) => ($current ? 700 : 400)};
     }
 
     &::after {
@@ -59,7 +61,7 @@ export const StyledLink = styled(NavLink)`
 `;
 
 export const StyledIcon = styled.svg`
-  fill:currentColor;
+  fill: currentColor;
 
   @media only screen and (min-width: 768px) {
     width: 18px;

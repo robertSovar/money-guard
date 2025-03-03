@@ -4,6 +4,7 @@ export const BtnOpenModal = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -29,7 +30,6 @@ export const BtnOpenModal = styled.button`
   }
 
   @media only screen and (min-width: 768px) {
-    bottom: 100px;
     margin-right: 12px;
     position: fixed;
     bottom: 20px;

@@ -11,6 +11,7 @@ export const StyledBalanceContainer = styled.div`
   gap: 12px;
   padding-left: 32px;
   padding-top: 12px;
+  margin-bottom: 15px;
 
   @media only screen and (min-width: 1280px) {
     border-radius: 0;
