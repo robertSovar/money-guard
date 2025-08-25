@@ -8,16 +8,16 @@ import { selectSummary } from 'reduxConfig/statistics/selectors';
 ChartJS.register(...registerables);
 
 export const coloredCategoriesMap = new Map([
-  ['Entertainment', '#ff85d2'],
-  ['Car', 'rgb(255, 104, 109)'],
-  ['Products', 'rgb(255, 157, 137)'],
-  ['Main expenses', 'rgb(254, 208, 87)'],
-  ['Leisure', 'rgb(91, 255, 167)'],
-  ['Other expenses', 'rgb(0, 173, 95)'],
+  ['Iesiri in oras', '#ff85d2'],
+  ['Masina', 'rgb(255, 104, 109)'],
+  ['Cadouri', 'rgb(255, 157, 137)'],
+  ['Cheltuieli principale', 'rgb(254, 208, 87)'],
+  ['Reglare cu fizic', 'rgb(91, 255, 167)'],
+  ['Facturi', 'rgb(0, 173, 95)'],
   ['Education', 'rgb(115, 222, 255)'],
-  ['Self care', 'rgb(170, 154, 255)'],
-  ['Child care', 'rgb(87, 101, 255)'],
-  ['Household products', 'rgb(114, 61, 239)'],
+  ['Cheltuieli medicale', 'rgb(170, 154, 255)'],
+  ['Nunti si botezuri', 'rgb(87, 101, 255)'],
+  ['Cheltuieli gospodarie', 'rgb(114, 61, 239)'],
 ]);
 
 export function Chart() {
